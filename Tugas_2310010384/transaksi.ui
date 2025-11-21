@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>357</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>10</y>
+     <width>261</width>
+     <height>335</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="3" column="0">
+     <widget class="QLabel" name="nomorRekamMedisLabel">
+      <property name="text">
+       <string>Nomor Rekam Medis</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="nomorRekamMedisLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="kodePemeriksaanLabel">
+      <property name="text">
+       <string>Kode Pemeriksaan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="simpanButton">
+      <property name="text">
+       <string>SIMPAN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="ubahButton">
+      <property name="text">
+       <string>UBAH</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="hapusButton">
+      <property name="text">
+       <string>HAPUS</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="kodePemeriksaanLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="kodeDokterLabel">
+      <property name="text">
+       <string>Kode Dokter</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="kodeDokterLineEdit"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="kodeTransaksiLabel">
+      <property name="text">
+       <string>Kode Transaksi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="kodeTransaksiLineEdit"/>
+    </item>
+    <item row="9" column="0" colspan="2">
+     <widget class="QTableWidget" name="transaksiTableWidget"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="tanggalTransaksiLabel">
+      <property name="text">
+       <string>Tanggal Transaksi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QDateEdit" name="tanggalTransaksiDateEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="CariLabel">
+      <property name="text">
+       <string>Cari Data :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="2">
+     <widget class="QLineEdit" name="cariLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

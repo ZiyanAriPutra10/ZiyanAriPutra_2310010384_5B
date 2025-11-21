@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>431</width>
+    <height>348</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>391</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="kodeDokterLabel">
+      <property name="text">
+       <string>Kode Dokter</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="kodeDokterLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="namaDokterLabel">
+      <property name="text">
+       <string>Nama Dokter</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="namaDokterLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="spesialisLabel">
+      <property name="text">
+       <string>Spesialis</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="spesialisLineEdit"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="simpanButton">
+      <property name="text">
+       <string>SIMPAN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="hapusButton">
+      <property name="text">
+       <string>HAPUS</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="ubahButton">
+      <property name="text">
+       <string>UBAH</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0" colspan="2">
+     <widget class="QLabel" name="CariLabel">
+      <property name="text">
+       <string>Cari Data :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="2">
+     <widget class="QLineEdit" name="cariLineEdit"/>
+    </item>
+    <item row="9" column="0" colspan="2">
+     <widget class="QTableWidget" name="dokterTableWidget"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
