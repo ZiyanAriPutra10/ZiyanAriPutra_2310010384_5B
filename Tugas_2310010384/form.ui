@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main</class>
+ <widget class="QMainWindow" name="Main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Main</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHALAMAN_UTAMA">
+    <property name="title">
+     <string>HALAMAN UTAMA</string>
+    </property>
+    <addaction name="actionDATA_PASIEN"/>
+    <addaction name="actionDATA_DOKTER"/>
+    <addaction name="actionDATA_PEMERIKSAAN"/>
+    <addaction name="actionDATA_TRANSAKSI"/>
+   </widget>
+   <addaction name="menuHALAMAN_UTAMA"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionDATA_PASIEN">
+   <property name="text">
+    <string>DATA PASIEN</string>
+   </property>
+  </action>
+  <action name="actionDATA_DOKTER">
+   <property name="text">
+    <string>DATA DOKTER</string>
+   </property>
+  </action>
+  <action name="actionDATA_PEMERIKSAAN">
+   <property name="text">
+    <string>DATA PEMERIKSAAN</string>
+   </property>
+  </action>
+  <action name="actionDATA_TRANSAKSI">
+   <property name="text">
+    <string>DATA TRANSAKSI</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
